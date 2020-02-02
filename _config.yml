@@ -1,11 +1,11 @@
 # Site settings
 author: Timur Mishiev
-title: 
+title: Timur's Blog
 header-img: img/home-bg.png
 email: timurmishiev@gmail.com
 copyright_name: Timur Mishiev
 description: > # this means to ignore newlines until "baseurl:"
-  
+  learn... code... sleep... eat... repeat ...
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Starcatch
