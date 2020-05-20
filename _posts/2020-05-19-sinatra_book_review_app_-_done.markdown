@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "**Sinatra Book Review App - done!**"
-date:       2020-05-20 00:52:32 +0000
+date:       2020-05-19 20:52:33 -0400
 permalink:  sinatra_book_review_app_-_done
 ---
 
@@ -23,7 +23,7 @@ That’s what it looks like:
  ``<h2> Books Review Application </h2>
 <img src=“images/bookshelf.jpg” height=“300”, width=“480”/>
 
-So the formula is simple **“images/filename.filenam_extention”**
+So the formula is simple: **“images/filename.filenam_extention”**
 
 here is a link to my app , please check it out
 SINATRA BOOK APP (http://)http://https://www.youtube.com/watch?v=oGHA7QHpqI4
