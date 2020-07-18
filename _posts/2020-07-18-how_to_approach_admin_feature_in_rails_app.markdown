@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "How to approach Admin feature in Rails App"
+title:      "How to approach buildin an Admin feature in Rails App?"
 date:       2020-07-18 00:32:02 -0400
 permalink:  how_to_approach_admin_feature_in_rails_app
 ---
