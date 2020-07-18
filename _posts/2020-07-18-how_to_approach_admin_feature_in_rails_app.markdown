@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to approach Admin feature in Rails App"
-date:       2020-07-18 04:32:01 +0000
+date:       2020-07-18 00:32:02 -0400
 permalink:  how_to_approach_admin_feature_in_rails_app
 ---
 
@@ -42,4 +42,4 @@ permalink:  how_to_approach_admin_feature_in_rails_app
 
 From this point on this user will act as an admin in your application. Now you can start adding validations and build more logic associated with Admin’s actions.
 
-I hope you found this post useful. Please check out my Rails Portfolio app on GitHub:[https://github.com/Starcatch/Nursing-Home-Logs/tree/master](http://)
+I hope you found this post useful. Please check out my Rails Portfolio app on GitHub: https://github.com/Starcatch/Nursing-Home-Logs/tree/master
