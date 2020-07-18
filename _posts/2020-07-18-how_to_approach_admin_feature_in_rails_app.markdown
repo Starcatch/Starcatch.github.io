@@ -17,11 +17,11 @@ There are a few ways to approach it, we can either build an Admin Model and add 
 `rails generate migration add_admin_to_users `
 
 2. In the migration file we should set the Admin’s attribute to boolean and default property of False . Like so : 
-`class AddAdminToUsers < ActiveRecord::Migration[6.0]
-     def change
-        add_column :users, :admin, :boolean, default: false
-     end
-  end`
+   `class AddAdminToUsers < ActiveRecord::Migration[6.0]`
+      `def change`
+          `add_column :users, :admin, :boolean, default: false`
+      `end`
+    `end`
 			 
 3.  `rails db:migrate`
 
