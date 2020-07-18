@@ -14,5 +14,14 @@ I have a few players in my app, User who is a regular staff member,  Admin of th
 		
 There are a few ways to approach it, we can either build an Admin Model and add all  Models’ ids as foreign keys to Admin’s table along with other Admin’s attributes, like username and password. Or we can implement an easy solution and  add Admin attribute to our user. Because we already built  CRUD logic we are going to take a second approach, add Admin to Users and add some validations.
 
+1. You need to add Admin column to Users table. In our Terminal type:
+
+`rails generate migration add_admin_to_users`
+
+2. In the migration file we should set the Admin’s attribute to boolean and default property of False . Like so : `class AddAdminToUsers < ActiveRecord::Migration[6.0]
+           def change
+              add_column :users, :admin, :boolean, default: false
+           end
+       end`
 
 	
