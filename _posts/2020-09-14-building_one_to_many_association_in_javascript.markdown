@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Building "one to many" association in JavaScript."
-date:       2020-09-14 04:41:47 +0000
+date:       2020-09-14 00:41:48 -0400
 permalink:  building_one_to_many_association_in_javascript
 ---
 
 
-A few months ago I called a good friend of mine to catch up, due to coronavirus pandemic this was the longest time that we didn’t see each other. My friend is a great  restaurant and catering manager, and had a been very successful in the food industry prior to the Corona situation. My friend took a temporary job as an emergency manager of a dying Bakery to make it prosper again. After talking to him for a while he told me that his biggest challenge was  to build an order system  keep track to keep track of orders and deliveries. Thus, I have come up with the simple application, in which an employee takes an order by filling out a form with customer’s information. When the employee hits the Submit Order button, the OrdersAdapter class makes a POST request to Rails API and displays the order on our Index page, then an employee can add items to the order by entering Item and Price in the Item form fields. The employee is able to add multiple items to the same order. 
+A few months ago I called a good friend of mine to catch up, due to coronavirus pandemic this is the longest time we didn’t see each other. My friend is a great  restaurant and catering manager, and had a been very successful in the food industry prior to the Covid-19 situation. My friend took a temporary job as an emergency manager for a dying Bakery to make it prosper again. After talking to him for a few minutes he told me that his biggest challenge working there was  to organize an order system to  keep track of orders and deliveries. Thus, I have came up with the simple application, in which an employee takes an order by filling out a form with customer’s information. When the employee hits the Submit Order button, the OrdersAdapter class makes a POST request to Rails API and displays the order on our Index page, then the employee can add items to the order by entering an **Item** and a **Price** in the item's form fields. An employee is able to add multiple items to the same order. 
 
 To build the **Rails Api**  didn’t take so my mush effort, after all we had been studying Ruby and Ruby on Rails for the past three models , it was much more challenging to build out “one to many” relationship, Order has Many Items, in JavaScript. After fixing a few issues on the backend and finally getting **JSON** data on the DOM, displaying data in Index page was definitely a learning curve, but that was an easy part. My struggle was to display items associated with particular orders. After taking a little break and looking at my Ruby code , I  realized that I just like in Ruby I can build this association using an **orderId**.  And create an innerHTML form for Item’s attributes. 
 
