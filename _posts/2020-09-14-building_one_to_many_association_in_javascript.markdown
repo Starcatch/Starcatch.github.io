@@ -29,11 +29,7 @@ static renderNewOrderItemForm(orderId) {
 After I got my app functionality working. I finally, had a moment to realize that  that my UI is very ugly, and I have to quickly do something with it, fast! 
 
 ```
-* {
-  box-sizing: border-box;
-  margin:0;
-  padding: 0;
-}
+
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -42,12 +38,7 @@ body {
   line-height: 1.8;
 }
 
-a {
-  text-decoration: none;
-}
-body h1 {
-  text-align: center;
-}
+
 
 .new-order-form {
 width: 960 ;
