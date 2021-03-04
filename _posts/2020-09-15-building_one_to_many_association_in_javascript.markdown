@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building "one to many" association in JavaScript."
-date:       2020-09-15 21:47:34 +0000
+date:       2020-09-15 17:47:35 -0400
 permalink:  building_one_to_many_association_in_javascript
 ---
 
